@@ -6,17 +6,13 @@
 /*bg*/
 
 .parallax {
-    /* The image used */
     background-image: url("../img/cloudy-overcast-sky.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px;
 }
 
 .proPd{
@@ -27,6 +23,10 @@
 	height:500px
 	background-color:#000;
     padding: 70px;
+}
+
+.skill{
+    padding: 100px;
 }
 
 .mg-0{
@@ -61,11 +61,12 @@
 
 .iconTitle:hover .iconName{
     opacity: 1;
+    transition:2s;
 }
 
 .iconTitle:hover{
     text-decoration: none;
-    color: #cc0000 
+    color: #cc0000 ;
 }
 
 /*presentacion*/
@@ -80,20 +81,20 @@
 }
 
 .hola{
-    font-size: 3em; 
+    font-size: 2em; 
 }
 
 .nombre{
-    font-size: 6em;
+    font-size: 4em;
     color: #cc0000;
 }
 
 .soy{
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .frase{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 /*sobre mi*/
@@ -104,7 +105,7 @@
 
 .sobreMi{
     font-family: 'Architects Daughter', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .red{
@@ -148,6 +149,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .proyectoH{
@@ -158,14 +161,140 @@
   overflow: hidden;
   position: relative;
 }
-/* .ih-item.square.effect4.colored .info {
-  background: rgba(12, 34, 52, 0.6);
+
+.imgPd{
+    padding: 10px;
 }
-.ih-item.square.effect4.colored .mask1,
-.ih-item.square.effect4.colored .mask2 {
-  background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
-} */
+
+.fullH{
+    height: 100%;
+}
+
+/*habilidades*/
+
+.boxUno{
+    height: 100px;
+    background-color:#cc0000;
+    border-right:4px solid #fff;
+    border-bottom:4px solid #fff; 
+    color: #fff;
+    padding-top: 10px; 
+}
+
+.box{
+    height: 150px;
+    border-right:4px solid #fff;
+    border-bottom:4px solid #fff;
+    background-color: #D3D3D3;
+}
+
+.skills{
+    width: 6%;
+}
+
+.mate{
+    width: 10%;
+}
+
+.marg{
+    padding-top: 38px;
+} 
+
+.intermd{
+    width: 35%;
+}
+
+.lang{
+    width: 36%;
+}
+
+.sass{
+    margin-left: 12px;
+}
+
+.tituloHabilidades{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.niveles{
+    padding-top: 50px;   
+}
+
+div div {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+hr{
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hola{
+        font-size: 2em; 
+    }
+
+    .nombre{
+        font-size: 3em;
+        color: #cc0000;
+    }
+
+    .soy{
+        font-size: 1.5em;
+    }
+
+    .frase{
+        font-size: 1.2em;
+    }
+
+    .menuIconSm {
+        height: 41px;
+        margin-right: 26px;
+        display: block;
+    }
+
+    .primer{
+        margin-left: 10px;
+    }
+
+    .miFoto {
+        width: 84%;
+        margin-bottom: 10px;
+    }
+
+    .blanco{
+        padding: 25px;
+    }
+
+    .sobreMi{
+        font-size: 1.2em;
+        text-align: inherit;
+    }
+
+    .intro{
+        padding-top: 91px;
+    }
+
+    .proPd{
+        padding: 37px;
+    }
+
+    .ih-item.square{
+        height: 179px;
+        width: 245px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/*hover*/
+
 .ih-item.square.effect4 .img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -257,21 +386,21 @@
   -moz-transition: all 0.35s ease-in-out 0.35s;
   transition: all 0.35s ease-in-out 0.35s;
 }
-.ih-item.square.effect4 a:hover .mask1 {
+.ih-item.square.effect4 div:hover .mask1 {
   -webkit-transform: rotate(56.5deg) translateX(1px);
   -moz-transform: rotate(56.5deg) translateX(1px);
   -ms-transform: rotate(56.5deg) translateX(1px);
   -o-transform: rotate(56.5deg) translateX(1px);
   transform: rotate(56.5deg) translateX(1px);
 }
-.ih-item.square.effect4 a:hover .mask2 {
+.ih-item.square.effect4 div:hover .mask2 {
   -webkit-transform: rotate(56.5deg) translateX(-1px);
   -moz-transform: rotate(56.5deg) translateX(-1px);
   -ms-transform: rotate(56.5deg) translateX(-1px);
   -o-transform: rotate(56.5deg) translateX(-1px);
   transform: rotate(56.5deg) translateX(-1px);
 }
-.ih-item.square.effect4 a:hover .info {
+.ih-item.square.effect4 div:hover .info {
   width: 100%;
   height: 60%;
   visibility: visible;
@@ -282,8 +411,8 @@
   -o-transform: rotate(0deg) translate(0, 0);
   transform: rotate(0deg) translate(0, 0);
 }
-.ih-item.square.effect4 a:hover .info h3,
-.ih-item.square.effect4 a:hover .info p {
+.ih-item.square.effect4 div:hover .info h3,
+.ih-item.square.effect4 div:hover .info p {
   opacity: 1;
 }.ih-item.square {
   position: relative;
@@ -315,10 +444,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.ih-item a {
+.ih-item div {
   color: #333;
 }
-.ih-item a:hover {
+.ih-item div:hover {
   text-decoration: none;
 }
 .ih-item img {
@@ -345,62 +474,3 @@
 }
 
 
-
-@media only screen and (max-width: 768px) {
-    .hola{
-        font-size: 2em; 
-    }
-
-    .nombre{
-        font-size: 3em;
-        color: #cc0000;
-    }
-
-    .soy{
-        font-size: 1.5em;
-    }
-
-    .frase{
-        font-size: 1.2em;
-    }
-
-    .menuIconSm {
-        height: 41px;
-        margin-right: 26px;
-        display: block;
-    }
-
-    .primer{
-        margin-left: 10px;
-    }
-
-    .miFoto {
-        width: 84%;
-        margin-bottom: 10px;
-    }
-
-    .blanco{
-        padding: 25px;
-    }
-
-    .sobreMi{
-        font-size: 1.2em;
-        text-align: inherit;
-    }
-
-    .intro{
-        padding-top: 91px;
-    }
-
-    .proPd{
-        padding: 37px;
-    }
-
-    .ih-item.square{
-        height: 179px;
-        width: 245px;
-        margin-bottom: 10px;
-    }
-
-
-}
