@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portafolio</title>
+	<title>Sofía</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -12,32 +12,32 @@
 <body class>
 	<div class="menu hidden-xs">
   	   	<div>
-  	   		<a id="logo-holder" href="#" class="iconTitle">
+  	   		<a id="logo-holder" href="#sobreMi" class="iconTitle">
   				<img class="menuIcon" src="img/here.png">
-  		   		<span class="iconName ">Sobre mi</span>
+  		   		<span class="iconName ">Sobre mí</span>
   		   		</a>
    		</div>
   	   	<div>
-  	   		<a id="logo-holder" href="#" class="iconTitle">
+  	   		<a id="logo-holder" href="#proyectos" class="iconTitle">
   		   		<img class="menuIcon" src="img/fence.png" >
   		   		<span class="iconName ">Proyectos</span>
   			</a>
   	   	</div>
   	   	<div>
-  	   		<a id="logo-holder" href="#" class="iconTitle">
+  	   		<a id="logo-holder" href="#habilidades" class="iconTitle">
   		   		<img class="menuIcon" src="img/guard.png">
   		   		<span class="iconName ">Habilidades</span>
   		   	</a>
   	   	</div>
   	   	<div>
-  	   		<a id="logo-holder" href="#" class="iconTitle">
+  	   		<a id="logo-holder" href="#contacto" class="iconTitle">
   		   		<img class="menuIcon" src="img/guild.png">
-  		   		<span class="iconName ">Contáctame</span>
+  		   		<span class="iconName ">Contacto</span>
   		   	</a>
   	   	</div>	
   	</div>
-  	<nav class="menuSm navbar-fixed-top visible-xs">
-  		<div class="container">
+  	<nav class="menuSm navbar-fixed-top visible-xs pd-0">
+  		<div class="container pd-0">
   			<a id="logo-holder" href="#" class="iconTitleSm">
 		   		<img class="menuIconSm primer" src="img/here.png">
 		   		<span class="iconNameSm block primer">Sobre mi</span>
@@ -56,11 +56,12 @@
 		   	</a>	
   		</div>
   	</nav>
-	<div class="container-fluid parallax">
+	<div class="container-fluid parallax sobreMiXs">
+		<a class="red language hidden-xs" href="english.html">ENG</a>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 presentacion ubicacion">
 				<p class="intro">
-					<span class="presentacion hola">¡Hola! Soy</span><br> 
+					<span class="presentacion hola hidden-xs">¡Hola! Soy</span><br> 
 					<span class="presentacion nombre">Sofía Caballero</span><br>
 					<span class="presentacion soy">Desarrolladora Front-end</span><br><br>
 					<span class="presentacion frase"><i>"La confianza viene de lo que creas de ti mismo, no de lo que los demás crean de ti"</i></span>
@@ -68,17 +69,19 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid blanco">
+	<div class="container-fluid blanco" id="sobreMi">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 foto">
 				<img class="miFoto center-block img-responsive" src="img/miFoto.jpg">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8">
-				<p class="sobreMi text-right">Tengo <span class="enfasis">29</span> años, 10 vividos en la ciudad de <span class="red">New York</span>, donde aprendí <span class="red">Inglés</span>, <span class="enfasis">dibujo y pintura en oleo.</span><br>Disfruto las largas <span class="red">caminatas</span>, los buenos <span class="red">libros</span>, el <span class="red">cine</span>, los video juegos y los <span class="enfasis">conciertos</span> donde puedo liberar toda mi <span class="enfasis">energía.</span> </p>
+				<p class="sobreMi text-right">Tengo <span class="enfasis">29</span> años, 10 vividos en la ciudad de <span class="red">New York</span>, donde aprendí <span class="red">Inglés</span>, <span class="enfasis">dibujo y pintura en óleo.</span><br><br>
+				Al regresar, no tenía conocimientos sobre programación, hasta que ingresé a <span class="red">Laboratoria</span>, donde cada día aprendo algo nuevo.</span><br><br>
+				Usando la metodología  <span class="red">Agile</span> he reforzado mis habilidades trabajando en <span class="red">equipo</span> y sé que ahora nada es imposible de aprender y que nunca es demasiado tarde para hacerlo.</p>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid parallax hidden-xs">
+	<div class="container-fluid parallax hidden-xs" id="proyectos">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-4">
 			    <div class="ih-item square effect4">
@@ -89,8 +92,13 @@
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
-				          	<h3>TRELLO</h3>
-				          	<p>Javascript-Eventos</p>
+				          	<h3>
+				          		<a href="#">TRELLO</a>
+				          	</h3>
+				          	<p>Replica de Trello usando Eventos</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 				        </div>
 				    </div>
 				</div>
@@ -104,8 +112,13 @@
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
-				          	<h3>TWITTER</h3>
-				          	<p>Description goes here</p>
+				          	<h3>
+				          		<a href="#">TWEETS</a>
+				          	</h3>
+				          	<p>descripción</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 				        </div>
 				    </div>
 			    </div>
@@ -119,8 +132,13 @@
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
-				          	<h3>USER 360</h3>
-				          	<p>Description goes here</p>
+				          	<h3>
+				          		<a href="#">USER 360</a>
+				          	</h3>
+				          	<p>Descripción</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 				        </div>
 				    </div>
 				</div>
@@ -134,8 +152,13 @@
 			        	<div class="mask1"></div>
 			        	<div class="mask2"></div>
 			        	<div class="info">
-			          		<h3>PORTAFOLIO</h3>
-			          		<p>Description goes here</p>
+			          		<h3>
+				          		<a href="#">PORTAFOLIO</a>
+				          	</h3>
+				          	<p>Descripción</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 			        	</div>
 			        </div>
 			    </div>
@@ -144,13 +167,18 @@
 			    <div class="ih-item square effect4">
 			    	<div class="fullH">
 				        <div class="fullH">
-				        	<img class="imgProyectogsrc="PON IMAGEN" alt="img">
+				        	<img class="imgProyectog" src="img/coSoon.jpg" alt="img">
 				        </div>
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
-				          	<h3>Heading here</h3>
-				          	<p>Description goes here</p>
+				          	<h3>
+				          		<a href="#">LYFT</a>
+				          	</h3>
+				          	<p>Descripción</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 				        </div>
 				    </div>
 				</div>
@@ -159,106 +187,164 @@
 			    <div class="ih-item square effect4">
 			    	<div class="fullH">
 				        <div class="fullH">
-				        	<img class="imgProyecto" src="PON IMAGEN" alt="img">
+				        	<img class="imgProyecto" src="img/coSoon.jpg" alt="img">
 				        </div>
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
-				          	<h3>Heading here</h3>
-				          	<p>Description goes here</p>
+				          	<h3>
+				          		<a href="#">Proyecto</a>
+				          	</h3>
+				          	<p>Descripción</p>
+				          	<h4>
+				          		<a href="">Mira el codigo</a>
+				          	</h4>
 				        </div>
 				    </div>
 			    </div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid blanco skill">
-		<div class="">
+	<div class="container-fluid parallax proyectosXs visible-xs">
+		<div class="trello boxx fullH"></div>
+		<div class="tweet boxx fullH"></div>
+		<div class="user360 boxx fullH"></div>
+		<div class="portafolio boxx fullH"></div>
+
+	</div>
+	<div class="container-fluid blanco skill" id="habilidades">
+		<div class="hidden-xs">
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs text-center boxUno">
+				<div class="col-md-3 col-sm-3 text-center boxUno">
 					<span class="tituloHabilidades">Niveles</span>
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs text-left boxUno">
+				<div class="col-md-9 col-sm-9 text-left boxUno">
 					<span class="tituloHabilidades">Habilidades</span>
 				</div>
 				<hr>
 			</div>
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs margg box">
+				<div class="col-md-3 col-sm-3  margg box">
 					<img class="level center-block" src="img/seed.png" alt="">
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs marg box">
+				<div class="col-md-9 col-sm-9  marg box">
 					<img class="skills sass" src="img/sass.png" alt="">
 					<span>Sass</span>
 				</div>
 			</div>
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs margg box">
+				<div class="col-md-3 col-sm-3 margg box">
 					<img class="level center-block" src="img/seedling.png">
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs marg box">
+				<div class="col-md-9 col-sm-9  marg box">
 					<img class="mate" src="img/materialize.png">
 					<span>Materialize</span>
 				</div>
 			</div>
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs margg box">
+				<div class="col-md-3 col-sm-3 margg box">
 					<img class="level center-block" src="img/sapling.png">
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs box">
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
+				<div class="col-md-9 col-sm-9 box">
+					<div class="col-md-3 col-sm-3 marg">
 						<img class="intermd"  src="img/bootstrap.png">
 						<span>Bootstrap</span>
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
-						<img class="intermd"  src="img/github.png">
-						<span>GitHub</span>
+					<div class="col-md-3 col-sm-3 marg">
+						<img class="intermd"  src="img/git.png">
+						<span>Git</span>
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
+					<div class="col-md-3 col-sm-3  marg">
 						<img class="intermd"  src="img/jQuery.png" alt="">
 						<span>Jquery</span>
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
+					<div class="col-md-3 col-sm-3 marg">
 						<img class="intermd"  src="img/javascrip.png">
 						<span>JavaScript</span>
 					</div>
 				</div>
 			</div>
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs margg box">
+				<div class="col-md-3 col-sm-3 margg box">
 					<img class="level center-block" src="img/tree.png">
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs box">
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
+				<div class="col-md-9 col-sm-9 box">
+					<div class="col-md-3 col-sm-3 marg">
 						<img class="lang" src="img/html.png">
 						<span>HTML</span>
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs marg">
+					<div class="col-md-3 col-sm-3 marg">
 						<img class="lang" src="img/css3.png">
 						<span>CSS3</span>
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs">
+					<div class="col-md-3 col-sm-3">
 						
 					</div>
-					<div class="col-md-3 col-sm-3 hidden-xs">
+					<div class="col-md-3 col-sm-3">
 						
 					</div>
 				</div>
 			</div>
 			<div class="row mgB">
-				<div class="col-md-3 col-sm-3 hidden-xs margg box">
+				<div class="col-md-3 col-sm-3margg box">
 					<img class="level center-block" src="img/ultimate.png" alt="">
 				</div>
-				<div class="col-md-9 col-sm-9 hidden-xs box">
+				<div class="col-md-9 col-sm-9 box">
 					
 				</div>
 			</div>
 		</div>
+		<div class="visible-xs">
+			<div class="row habMg">
+				<p class="habilidades text-center">Habilidades</p>
+			</div>
+			<div class="row habMg text-center">
+				<div class="col-xs-6">
+					<img class="circulo" src="img/sass.png">
+				</div>
+				<div class="col-xs-6">
+					<img class="mater" src="img/materialize.png">
+				</div>
+			</div>
+			<div class="row habMg text-center">
+				<div class="col-xs-6">
+					<img class="circulo" src="img/bootstrap.png">
+				</div>
+				<div class="col-xs-6">
+					<img class="circulo" src="img/github.png">
+				</div>
+			</div>
+			<div class="row habMg text-center">
+				<div class="col-xs-6">
+					<img class="circulo" src="img/jQuery.png">
+				</div>
+				<div class="col-xs-6">
+					<img class="js" src="img/javascrip.png">
+				</div>
+			</div>
+			<div class="row habMg text-center">
+				<div class="col-xs-6">
+					<img class="circulo" src="img/html.png">
+				</div>
+				<div class="col-xs-6">
+					<img class="circulo" src="img/css3.png">
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="container-fluid parallax">
-		<!-- <div class="row">
-			<div class="col-xs-"></div>
-		</div> -->
+	<div class="container-fluid parallax contactoXs" id="contacto">
+		<div class="row mg-0">
+			<p class="text-center contacto">Contacto</p>
+		</div>
+		<div class="row mg-0">
+			<div class="text-center iconosContacto">
+				<img class="skills skXs" src="img/github.png" alt="">
+				<img class="skills skXs" src="img/linked_in.png" alt="">
+			</div>		
+		</div>
+		<div class="row mg-0 text-center">
+			<h3 class="email">sofia.m.caballero@gmail.com</h3>
+		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>

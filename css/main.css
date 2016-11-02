@@ -33,6 +33,10 @@
     margin: 0;
 }
 
+.pd-0{
+    padding: 0;
+}
+
 /*menu*/
 
 .menu{
@@ -61,7 +65,7 @@
 
 .iconTitle:hover .iconName{
     opacity: 1;
-    transition:2s;
+    transition:1.5s;
 }
 
 .iconTitle:hover{
@@ -73,7 +77,7 @@
 
 .ubicacion{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .presentacion{
@@ -101,6 +105,10 @@
 
 .miFoto{
     width: 80%;     
+}
+
+.miFoto:hover{
+    border:5px solid #cc0000;
 }
 
 .sobreMi{
@@ -133,7 +141,7 @@
 
 .menuIconSm {
     height: 30px;
-    margin-right: 14px;
+    margin-right: 10px;
     display: block;
 }
 
@@ -233,6 +241,96 @@ hr{
     z-index: 1;
 }
 
+/*contacto*/
+
+.contacto{
+    font-size: 2.5em;
+    color:#000;
+}
+
+.iconosContacto{
+    margin-top: 40px;
+}
+
+.email{
+    color:#cc0000;
+    font-weight: bold;
+}
+
+/*proyectosXs*/
+
+.proyectosXs{
+    padding: 15px;
+}
+
+.boxx{
+    width: 290px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+
+.trello{
+    background-image: url(../img/trello.png);    
+}
+
+.tweet{
+    background-image: url(../img/twitter.png);
+}
+
+.user360{
+    background-image: url(../img/user360.png);
+}
+
+.portafolio{
+    background-image: url(../img/portaTra.png);
+}
+
+/*habilidades xs*/
+
+.circulo{
+    width: 50%;
+}
+
+.mater{
+    width: 67%;
+}
+
+.js{
+    width: 51%;
+}
+
+.habMg{
+    margin-bottom: 15px;
+}
+
+.habilidades{
+    font-size: 2.5em;
+    color:#cc0000;
+}
+
+.contactoXs{
+    padding: 80px 10px 80px 10px;
+}
+
+.language{
+    position: absolute;
+    top: 0;
+    right:10px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
+
+.language:hover{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 768px) {
     .hola{
@@ -240,21 +338,21 @@ hr{
     }
 
     .nombre{
-        font-size: 3em;
+        font-size: 2em;
         color: #cc0000;
     }
 
     .soy{
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .frase{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .menuIconSm {
         height: 41px;
-        margin-right: 26px;
+        margin-right: 25px;
         display: block;
     }
 
@@ -272,8 +370,8 @@ hr{
     }
 
     .sobreMi{
-        font-size: 1.2em;
-        text-align: inherit;
+        font-size: 1em;
+        text-align: right;
     }
 
     .intro{
@@ -284,16 +382,28 @@ hr{
         padding: 37px;
     }
 
-    .ih-item.square{
-        height: 179px;
-        width: 245px;
-        margin-bottom: 10px;
+    .sobreMiXs{
+        padding: 10px;
+    }
+
+    .proyectosXs{
+        padding: 5%;
+    }
+
+    .skXs{
+        width: 19%;
     }
 
 
 }
 
 /*hover*/
+
+.ih-item.square{
+    height: 179px;
+    width: 245px;
+    margin-bottom: 10px;
+}
 
 .ih-item.square.effect4 .img {
   -webkit-transition: all 0.35s ease-in-out;
@@ -379,7 +489,7 @@ hr{
   font-size: 12px;
   position: relative;
   color: #bbb;
-  padding: 20px 20px 20px;
+  
   text-align: center;
   opacity: 0;
   -webkit-transition: all 0.35s ease-in-out 0.35s;
