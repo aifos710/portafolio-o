@@ -126,26 +126,26 @@
 
 /*menu xs*/
 
-.menuSm{
+.menuXs{
     position: fixed;
     z-index: 1000;
     top: 0;
     background-color: rgba(255,255,255,0.8);
 }
 
-.iconNameSm{
+.iconNameXs{
     font-family: 'Architects Daughter', cursive;
     font-weight: bold;
     font-size: 10px;
 }
 
-.menuIconSm {
+.menuIconXs{
     height: 30px;
     margin-right: 10px;
     display: block;
 }
 
-.iconTitleSm{
+.iconTitleXs{
     color: #cc0000;
     display:inline-block;
 }
@@ -179,6 +179,10 @@
 }
 
 /*habilidades*/
+
+.level{
+  width: 5px;
+}
 
 .boxUno{
     height: 100px;
@@ -255,6 +259,7 @@ hr{
 .email{
     color:#cc0000;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 /*proyectosXs*/
