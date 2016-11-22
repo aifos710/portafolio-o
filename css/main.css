@@ -1,32 +1,31 @@
 *{
 	box-sizing: border-box;
-    margin: 0px;
+  margin: 0px;
 }
 
 /*bg*/
 
 .parallax {
-    background-image: url("../img/cloudy-overcast-sky.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
+  background-image: url("../img/cloudy-overcast-sky.jpg");
+  min-height: 661px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .proPd{
-    padding: 150px;
+  padding: 150px;
 }
 
 .blanco{
-	height:500px
+	height:800px
 	background-color:#000;
-    padding: 70px;
+  padding: 80px;
 }
 
 .skill{
-    padding: 100px;
+    padding: 50px 110px 50px 110px;
 }
 
 .mg-0{
@@ -35,6 +34,10 @@
 
 .pd-0{
     padding: 0;
+}
+
+.mePad{
+  padding:157px;
 }
 
 /*menu*/
@@ -103,6 +106,10 @@
 
 /*sobre mi*/
 
+.sobremiPd{
+  margin:20p;
+}
+
 .miFoto{
     width: 80%;     
 }
@@ -142,7 +149,7 @@
 .menuIconXs{
     height: 30px;
     margin-right: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .iconTitleXs{
@@ -178,50 +185,63 @@
     height: 100%;
 }
 
+.proyectosPd{
+  padding:80px 100px 100px 100px;
+}
+
 /*habilidades*/
 
 .level{
-  width: 5px;
+  height: 63%;
+  margin-top: 20px;
 }
 
 .boxUno{
-    height: 100px;
-    background-color:#cc0000;
-    border-right:4px solid #fff;
-    border-bottom:4px solid #fff; 
-    color: #fff;
-    padding-top: 10px; 
+  height: 100px;
+  background-color:#cc0000;
+  border-right:4px solid #fff;
+  border-bottom:4px solid #fff; 
+  color: #fff;
 }
 
 .box{
-    height: 150px;
-    border-right:4px solid #fff;
-    border-bottom:4px solid #fff;
-    background-color: #D3D3D3;
+  height: 100px;
+  border-right:4px solid #fff;
+  border-bottom:4px solid #fff;
+  background-color: #D3D3D3;
 }
 
 .skills{
-    width: 6%;
+  width: 4%;
 }
 
 .mate{
-    width: 10%;
+    width: 8%;
+    margin-left: 6px;
 }
 
 .marg{
-    padding-top: 38px;
+    padding-top: 22px;
 } 
 
 .intermd{
-    width: 35%;
+    width: 28%;
 }
 
 .lang{
-    width: 36%;
+    width: 29%;
 }
 
 .sass{
     margin-left: 12px;
+    height: 65%;
+    width: 51px;
+}
+
+.ing{
+    width: 8%;
+    margin-top: 14px;
+    margin-left: 14px;
 }
 
 .tituloHabilidades{
@@ -247,9 +267,10 @@ hr{
 
 /*contacto*/
 
-.contacto{
+.tituloSeccion{
     font-size: 2.5em;
     color:#000;
+    margin-bottom: 30px;
 }
 
 .iconosContacto{
@@ -259,7 +280,15 @@ hr{
 .email{
     color:#cc0000;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 90px;
+}
+
+.contactoMd{
+  width: 8%;
+}
+
+.contactoMg{
+  margin: 35px;
 }
 
 /*proyectosXs*/
@@ -525,6 +554,7 @@ hr{
   -ms-transform: rotate(0deg) translate(0, 0);
   -o-transform: rotate(0deg) translate(0, 0);
   transform: rotate(0deg) translate(0, 0);
+
 }
 .ih-item.square.effect4 div:hover .info h3,
 .ih-item.square.effect4 div:hover .info p {
@@ -564,6 +594,7 @@ hr{
 }
 .ih-item div:hover {
   text-decoration: none;
+
 }
 .ih-item img {
   width: 100%;
