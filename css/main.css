@@ -159,6 +159,22 @@
 
 /*imagenes proyectos*/
 
+.colorLetra{
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div h3 .colorLetra:hover{
+  color: #D3D3D3;
+  text-decoration: none; 
+}
+
+div h4 .colorLetra:hover{
+  color: #D3D3D3;
+  text-decoration: none; 
+}
+
 .imgProyecto{
     background-attachment: fixed;
     background-position: center;
