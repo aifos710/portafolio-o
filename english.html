@@ -8,13 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="styles/ihover.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body class>
 	<div class="menu hidden-xs">
   	   	<div>
   	   		<a id="logo-holder" href="#sobreMi" class="iconTitle">
   				<img class="menuIcon" src="img/here.png">
-  		   		<span class="iconName ">About me</span>
+  		   		<span class="iconName ">About Me</span>
   		   		</a>
    		</div>
   	   	<div>
@@ -36,53 +37,54 @@
   		   	</a>
   	   	</div>	
   	</div>
-  	<nav class="menuXs pd-0 navbar-fixed-top visible-xs">
+  	<!-- <nav class="menuXs pd-0 navbar-fixed-top visible-xs">
   		<div class="container pd-0">
   			<a id="logo-holder" href="#" class="iconTitleSm">
-		   		<img class="menuIconSm primer" src="img/here.png">
-		   		<span class="iconNameXs block primer">About me</span>
-	   		</a>
-		   	<a id="logo-holder" href="#" class="iconTitleSm">
-		   		<img class="menuIconXs" src="img/fence.png" >
-		   		<span class="iconNameXs block">Projects</span>
-		   	</a>
-		   	<a id="logo-holder" href="#" class="iconTitleSm">
-		   		<img class="menuIconXs" src="img/guard.png">
-		   		<span class="iconNameXs block">Skills</span>
-		   	</a>
-		   	<a id="logo-holder" href="#" class="iconTitleSm">
-		   		<img class="menuIconXs" src="img/guild.png">
-		   		<span class="iconNameXs block">Get in touch</span>
-		   	</a>	
+  			   		<img class="menuIconSm primer" src="img/here.png">
+  			   		<span class="iconNameXs block primer">Sobre mi</span>
+  		   		</a>
+  			   	<a id="logo-holder" href="#" class="iconTitleSm">
+  			   		<img class="menuIconXs" src="img/fence.png" >
+  			   		<span class="iconNameXs block">Proyectos</span>
+  			   	</a>
+  			   	<a id="logo-holder" href="#" class="iconTitleSm">
+  			   		<img class="menuIconXs" src="img/guard.png">
+  			   		<span class="iconNameXs block">Habilidades</span>
+  			   	</a>
+  			   	<a id="logo-holder" href="#" class="iconTitleSm">
+  			   		<img class="menuIconXs" src="img/guild.png">
+  			   		<span class="iconNameXs block">Contáctame</span>
+  			   	</a>	
   		</div>
-  	</nav>
-	<div class="container-fluid parallax sobreMiXs">
+  	</nav> -->
+	<div class="container-fluid parallax sobreMiXs mePad">
 		<a class="red language hidden-xs" href="index.html">ESP</a>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 presentacion ubicacion">
 				<p class="intro">
-					<span class="presentacion hola hidden-xs">Hey! I´m</span><br> 
+					<span class="presentacion hola hidden-xs">Hi! I´m</span><br> 
 					<span class="presentacion nombre">Sofía Caballero</span><br>
 					<span class="presentacion soy">Front-end Developer</span><br><br>
-					<span class="presentacion frase"><i>"Life owes you nothing. You owe yourself EVERYTHING"</i></span>
+					<span class="presentacion frase"><i>"Life owes you nothing. You owe yourself everything."</i></span>
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="container-fluid blanco" id="sobreMi">
-		<div class="row">
+		<div class="row sobremiPd">
 			<div class="col-xs-12 col-sm-12 col-md-4 foto">
 				<img class="miFoto center-block img-responsive" src="img/miFoto.jpg">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8">
-				<p class="sobreMi text-right">Tengo 29 años, 10 vividos en la ciudad de <span class="red">New York</span>, donde aprendí <span class="red">Inglés</span>, dibujo y pintura en óleo.<br><br>
-				Al regresar, no tenía conocimientos sobre programación, hasta que ingresé a <span class="red">Laboratoria</span>, donde cada día aprendo algo nuevo.</span><br><br>
-				Usando la metodología  <span class="red">Agile</span> he reforzado mis habilidades trabajando en <span class="red">equipo</span> y sé que ahora nada es imposible de aprender y que nunca es demasiado tarde para hacerlo.</p>
+				<p class="sobreMi text-right">I am 29 years old, I lived in <span class="red">New York City</span> for 10 years, where I learned <span class="red">English</span>, Drawing and Oil Painting.<br><br>
+				Upon entering <span class="red">Laboratoria</span> I discovered The Programming World, where every day I learn something new and exciting.</span><br><br>
+				Using the <span class="red">Agile </span> Methodology I have reinforced my skills as a <span class="red">Team Player</span> and I know now that nothing is impossible to learn and that it is never too late to do so.</p>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid parallax hidden-xs" id="proyectos">
+	<div class="container-fluid parallax hidden-xs proyectosPd" id="proyectos">
 		<div class="row">
+			<p class="text-center tituloSeccion">Projects</p>
 			<div class="col-xs-12 col-sm-6 col-md-4">
 			    <div class="ih-item square effect4">
 			    	<div class="fullH">
@@ -93,11 +95,11 @@
 				        <div class="mask2"></div>
 				        <div class="info">
 				          	<h3>
-				          		<a href="#">TRELLO</a>
+				          		<a target="_blank" class="colorLetra" href="https://aifos710.github.io/trello-o/">TRELLO</a>
 				          	</h3>
-				          	<p>Replica de Trello usando Eventos</p>
+				          	<p>Javascript: Events</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
+				          		<a target="_blank" class="colorLetra" href="https://github.com/aifos710/trello-o">View the code</a>
 				          	</h4>
 				        </div>
 				    </div>
@@ -113,11 +115,11 @@
 				        <div class="mask2"></div>
 				        <div class="info">
 				          	<h3>
-				          		<a href="#">TWEETS</a>
+				          		<a target="_blank" class="colorLetra" href="https://aifos710.github.io/tweet/">TWEETS</a>
 				          	</h3>
-				          	<p>descripción</p>
+				          	<p>Javascript: Validation</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
+				          		<a target="_blank" class="colorLetra" href="https://github.com/aifos710/tweet">View the code</a>
 				          	</h4>
 				        </div>
 				    </div>
@@ -133,11 +135,11 @@
 				        <div class="mask2"></div>
 				        <div class="info">
 				          	<h3>
-				          		<a href="#">USER 360</a>
+				          		<a target="_blank" class="colorLetra" href="https://aifos710.github.io/user-360/">USER 360</a>
 				          	</h3>
-				          	<p>Descripción</p>
+				          	<p>Framework: Bootstrap</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
+				          		<a target="_blank" class="colorLetra" href="https://github.com/aifos710/user-360">View the code</a>
 				          	</h4>
 				        </div>
 				    </div>
@@ -153,11 +155,11 @@
 			        	<div class="mask2"></div>
 			        	<div class="info">
 			          		<h3>
-				          		<a href="#">PORTAFOLIO</a>
+				          		<a target="_blank" class="colorLetra" href="https://aifos710.github.io/portafolio/">PORTAFOLIO</a>
 				          	</h3>
-				          	<p>Descripción</p>
+				          	<p>Grid System</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
+				          		<a target="_blank" class="colorLetra" href="https://github.com/aifos710/portafolio/settings">View the code</a>
 				          	</h4>
 			        	</div>
 			        </div>
@@ -167,18 +169,18 @@
 			    <div class="ih-item square effect4">
 			    	<div class="fullH">
 				        <div class="fullH">
-				        	<img class="imgProyectog" src="img/coSoon.jpg" alt="img">
+				        	<img class="imgProyecto" src="img/coSoon.jpg" alt="img">
 				        </div>
 				        <div class="mask1"></div>
 				        <div class="mask2"></div>
 				        <div class="info">
 				          	<h3>
-				          		<a href="#">LYFT</a>
+				          		<a class="colorLetra" href="#">Proyecto</a>
 				          	</h3>
 				          	<p>Descripción</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
-				          	</h4>
+				          		<a class="colorLetra" href="">View the code</a>
+				          	</h4> 
 				        </div>
 				    </div>
 				</div>
@@ -193,11 +195,11 @@
 				        <div class="mask2"></div>
 				        <div class="info">
 				          	<h3>
-				          		<a href="#">Proyecto</a>
+				          		<a class="colorLetra" href="#">Proyecto</a>
 				          	</h3>
 				          	<p>Descripción</p>
 				          	<h4>
-				          		<a href="">Mira el codigo</a>
+				          		<a class="colorLetra" href="">View the code</a>
 				          	</h4>
 				        </div>
 				    </div>
@@ -289,13 +291,14 @@
 					<img class="level center-block" src="img/ultimate.png" alt="">
 				</div>
 				<div class="col-md-9 col-sm-9 box">
-					
+					<img class="ing" src="img/ingles.ico">
+					<span>English</span>
 				</div>
 			</div>
 		</div>
 		<div class="visible-xs">
 			<div class="row habMg">
-				<p class="habilidades text-center">Skills</p>
+				<p class="habilidades text-center">Habilidades</p>
 			</div>
 			<div class="row habMg text-center">
 				<div class="col-xs-6">
@@ -333,12 +336,22 @@
 	</div>
 	<div class="container-fluid parallax contactoXs" id="contacto">
 		<div class="row mg-0">
-			<p class="text-center contacto">Get in touch</p>
+			<p class="text-center tituloSeccion">Get in touch</p>
 		</div>
-		<div class="row mg-0">
+		<div class="row mg-0 contactMg">
 			<div class="text-center iconosContacto">
-				<img class="skills skXs" src="img/github.png" alt="">
-				<img class="skills skXs" src="img/linked_in.png" alt="">
+				<a target="_blank" href="https://github.com/aifos710">
+					<img class="contactoMd skXs" src="img/whitegithub.png" alt="">
+					
+				</a>
+				<a target="_blank" href="">
+					<img class="contactoMd skXs" src="img/whitecv.png" alt="">
+					
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/sofia-caballero-m">
+					<img class="contactoMd skXs" src="img/whitein.png" alt="">
+					
+				</a>
 			</div>		
 		</div>
 		<div class="row mg-0 text-center">

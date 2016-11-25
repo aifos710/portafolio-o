@@ -290,13 +290,13 @@ hr{
 }
 
 .iconosContacto{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .email{
     color:#cc0000;
     font-weight: bold;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 .contactoMd{
@@ -304,7 +304,7 @@ hr{
 }
 
 .contactoMg{
-  margin: 35px;
+  margin: 40px;
 }
 
 /*proyectosXs*/
