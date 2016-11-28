@@ -5,9 +5,14 @@
 
 /*bg*/
 
+p{
+  font-family: 'Architects Daughter', cursive;
+}
+
 .parallax {
   background-image: url("../img/cloudy-overcast-sky.jpg");
-  min-height: 661px;
+  min-height: 100vh;
+  width: 100vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,13 +24,12 @@
 }
 
 .blanco{
-	height:800px
-	background-color:#000;
-  padding: 80px;
+	height:100vh;
+	background-color:#fff;
 }
 
 .skill{
-    padding: 50px 110px 50px 110px;
+  padding: 30px 110px 15px 110px;
 }
 
 .mg-0{
@@ -107,7 +111,7 @@
 /*sobre mi*/
 
 .sobremiPd{
-  margin:20p;
+  padding: 5%;
 }
 
 .miFoto{
@@ -137,17 +141,22 @@
     position: fixed;
     z-index: 1000;
     top: 0;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(183,182,180,0.5);
 }
 
 .iconNameXs{
     font-family: 'Architects Daughter', cursive;
     font-weight: bold;
     font-size: 10px;
+    color: #cc0000;
+}
+
+.iconNameXs:hover{
+  text-decoration: none;
 }
 
 .menuIconXs{
-    height: 30px;
+    height: 41px;
     margin-right: 10px;
     display: inline-block;
 }
@@ -158,6 +167,10 @@
 }
 
 /*imagenes proyectos*/
+
+.proTitle{
+  margin: -24px 0 10px;
+}
 
 .colorLetra{
   color: #cc0000;
@@ -255,9 +268,14 @@ div h4 .colorLetra:hover{
 }
 
 .ing{
-    width: 8%;
-    margin-top: 14px;
-    margin-left: 14px;
+  width: 34%;
+  margin-top: -2px;
+  margin-left: -1px;
+}
+
+.mOff{
+  width:34%;
+
 }
 
 .tituloHabilidades{
@@ -284,9 +302,10 @@ hr{
 /*contacto*/
 
 .tituloSeccion{
-    font-size: 2.5em;
-    color:#000;
-    margin-bottom: 30px;
+  font-size: 2em;
+  color: #000;
+  margin-bottom: 48px;
+  margin-top: 50px;
 }
 
 .iconosContacto{
@@ -309,18 +328,31 @@ hr{
 
 /*proyectosXs*/
 
+.grayscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 .proyectosXs{
     padding: 15px;
 }
 
+.proXsTittle{
+  font-size: 2em;
+    color: #cc0000;
+    padding-top: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+}
+
 .boxx{
-    width: 290px;
+    width: 280px;
     height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10px;
     margin-right: 0;
+    border: 2px solid #cc0000;
 }
 
 .trello{
@@ -341,6 +373,11 @@ hr{
 
 /*habilidades xs*/
 
+.matXs{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .circulo{
     width: 50%;
 }
@@ -354,12 +391,13 @@ hr{
 }
 
 .habMg{
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .habilidades{
-    font-size: 2.5em;
-    color:#cc0000;
+    font-size: 2em;
+    color: #cc0000;
+    padding-top: 43px;
 }
 
 .contactoXs{
@@ -383,14 +421,18 @@ hr{
 }
 
 @media only screen and (max-width: 768px) {
-    .hola{
-        font-size: 2em; 
-    }
+  .blanco{
+    height: 103vh;
+  }
 
-    .nombre{
-        font-size: 2em;
-        color: #cc0000;
-    }
+  .hola{
+    font-size: 2em; 
+  }
+
+  .nombre{
+    font-size: 2em;
+    color: #cc0000;
+  }
 
     .soy{
         font-size: 1em;
@@ -407,11 +449,16 @@ hr{
     }
 
     .primer{
-        margin-left: 10px;
+        margin-left: -14px;
+        display: inline-block;
+    }
+
+    .second{
+      margin-left: -8px;
     }
 
     .miFoto {
-        width: 84%;
+        width: 80%;
         margin-bottom: 10px;
     }
 
@@ -420,12 +467,12 @@ hr{
     }
 
     .sobreMi{
-        font-size: 1em;
-        text-align: right;
+        font-size: 0.6em;
+        text-align: initial;
     }
 
     .intro{
-        padding-top: 91px;
+        padding-top: 127px;
     }
 
     .proPd{
@@ -620,7 +667,7 @@ hr{
   position: relative;
   width: 316px;
   height: 216px;
-  border: 8px solid #fff;
+  border: 2px double #cc0000;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px;
 }
@@ -635,4 +682,80 @@ hr{
   backface-visibility: hidden;
 }
 
+/*animacion*/
 
+.wobble{
+  @-webkit-keyframes hvr-wobble-skew {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-skew {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+}
