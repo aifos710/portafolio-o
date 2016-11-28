@@ -332,9 +332,9 @@ hr{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
-.proyectosXs{
+/*.proyectosXs{
     padding: 15px;
-}
+}*/
 
 .proXsTittle{
   font-size: 2em;
@@ -353,10 +353,15 @@ hr{
     margin-bottom: 10px;
     margin-right: 0;
     border: 2px solid #cc0000;
+    position: relative;
+}
+
+.absBut{
+  position: absolute;
 }
 
 .trello{
-    background-image: url(../img/trello.png);    
+    background-image: url(../img/trello.png);  
 }
 
 .tweet{
@@ -369,6 +374,10 @@ hr{
 
 .portafolio{
     background-image: url(../img/portaTra.png);
+}
+
+.lyft{
+  background-image: url(../img/lyft.png);
 }
 
 /*habilidades xs*/
@@ -422,7 +431,12 @@ hr{
 
 @media only screen and (max-width: 768px) {
   .blanco{
-    height: 103vh;
+    height: 111vh;
+  }
+
+  .blancoSkillXs{
+    height: 10px;
+    
   }
 
   .hola{
@@ -467,7 +481,7 @@ hr{
     }
 
     .sobreMi{
-        font-size: 0.6em;
+        font-size: 0.7em;
         text-align: initial;
     }
 
@@ -484,7 +498,7 @@ hr{
     }
 
     .proyectosXs{
-        padding: 5%;
+        padding: 6%;
     }
 
     .skXs{
