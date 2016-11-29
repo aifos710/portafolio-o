@@ -305,7 +305,6 @@ hr{
   font-size: 2em;
   color: #000;
   margin-bottom: 48px;
-  margin-top: 50px;
 }
 
 .iconosContacto{
@@ -328,12 +327,10 @@ hr{
 
 /*proyectosXs*/
 
-.grayscale {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+/*.grayscale {
+  -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
   filter: grayscale(100%);
-}
-/*.proyectosXs{
-    padding: 15px;
+  color: rgba(178,0,0,0.6);
 }*/
 
 .proXsTittle{
@@ -353,15 +350,10 @@ hr{
     margin-bottom: 10px;
     margin-right: 0;
     border: 2px solid #cc0000;
-    position: relative;
-}
-
-.absBut{
-  position: absolute;
 }
 
 .trello{
-    background-image: url(../img/trello.png);  
+    background-image: url(../img/trello.png);
 }
 
 .tweet{
