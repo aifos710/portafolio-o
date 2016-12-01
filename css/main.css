@@ -518,8 +518,8 @@ hr{
   position: absolute;
   background: #333333;
   background: rgba(0, 0, 0, 0.6);
-  height: 361px;
-  width: 361px;
+  height: 200%;
+  width: 200%;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -611,7 +611,7 @@ hr{
   -moz-transform: rotate(56.5deg) translateX(-1px);
   -ms-transform: rotate(56.5deg) translateX(-1px);
   -o-transform: rotate(56.5deg) translateX(-1px);
-  transform: rotate(56.5deg) translateX(-1px);
+  transform: rotate(56.5deg) translateX(-4px);
 }
 .ih-item.square.effect4 div:hover .info {
   width: 100%;
