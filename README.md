@@ -12,24 +12,19 @@
  
 3. SECTIONS
 
- 1. Main.
- 2. Photo and Introduction 
- 3. Projects.
- 4. Skills.
- 5. Contact.
- 6. Menu
+ * Main.
+ * Photo and Introduction 
+ * Projects.
+ * Skills.
+ * Contact.
+ * Menu
  
-4. AVAILABLE LANGUAGES
+4. SKILLS
 
- * English  https://aifos710.github.io/portafolio-o/english.html
- * Spanish  https://aifos710.github.io/portafolio-o/
+ This avatars from [Khan Academy] (https://www.khanacademy.org/) will be use https://www.khanacademy.org/to represent different levels     of my skills
+![avatars](http://i68.tinypic.com/2rmv2qe.jpg) 
  
-5. AVAILABLE ON
-
- * Desktop.
- * Mobile.
- 
-6. ABOUT THE MENU
+ 5. ABOUT THE MENU
 
  The icons on the menu are from my favorite video game [SKYRIM] (https://elderscrolls.bethesda.net/skyrim)
  
@@ -44,5 +39,17 @@
  
   * Contact
  ![contact](http://i65.tinypic.com/30nb1pl.png)
+ 
+6. AVAILABLE LANGUAGES
+
+ * English  https://aifos710.github.io/portafolio-o/english.html
+ * Spanish  https://aifos710.github.io/portafolio-o/
+ 
+7. AVAILABLE ON
+
+ * Desktop.
+ * Mobile.
+ 
+
 
  
