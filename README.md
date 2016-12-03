@@ -24,7 +24,7 @@
  This avatars from [Khan Academy] (https://www.khanacademy.org/) will be use https://www.khanacademy.org/to represent different levels     of my skills
 ![avatars](http://i68.tinypic.com/2rmv2qe.jpg) 
  
- 5. ABOUT THE MENU
+5. ABOUT THE MENU
 
  The icons on the menu are from my favorite video game [SKYRIM] (https://elderscrolls.bethesda.net/skyrim)
  
@@ -40,12 +40,16 @@
   * Contact
  ![contact](http://i65.tinypic.com/30nb1pl.png)
  
-6. AVAILABLE LANGUAGES
+6. PROJECTS
+
+![img pro](http://i65.tinypic.com/ddf4i9.png)
+ 
+7. AVAILABLE LANGUAGES
 
  * English  https://aifos710.github.io/portafolio-o/english.html
  * Spanish  https://aifos710.github.io/portafolio-o/
  
-7. AVAILABLE ON
+8. AVAILABLE ON
 
  * Desktop.
  * Mobile.
