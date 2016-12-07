@@ -7,6 +7,10 @@
   width: 25%;
 }
 
+.mifotoXs{
+  width: 5%;
+}
+
 /*prueba*/
 
 /*bg*/
@@ -117,7 +121,7 @@ p{
 /*sobre mi*/
 
 .sobremiPd{
-  padding: 5% 10% 5% 10%;
+  padding: 5% 10% 10% 10%;
 }
 
 .sobremiXsPd{
