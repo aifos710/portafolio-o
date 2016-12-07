@@ -115,17 +115,40 @@ p{
 /*sobre mi*/
 
 .sobremiPd{
-  padding: 5%;
+  padding: 5% 10% 5% 10%;
 }
 
-.miFoto{
+.sobremiXsPd{
+  padding: 5%
+}
+
+.miFoto {
+   background-image: url("../img/miFoto.jpg");
+   height: 525px;
+   width: 346px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.miFoto:hover {
+   background-image: url("../img/fotohover.jpg");
+}
+
+/* .miFoto{
     width: 80%;     
 }
 
 .miFoto:hover{
-    border:5px solid #cc0000;
-}
+    background-image: url(../img/fotohover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-position: center;
+    z-index: 1000;
 
+}
+ */
 .sobreMi{
     font-family: 'Architects Daughter', cursive;
     font-size: 1.5em;
