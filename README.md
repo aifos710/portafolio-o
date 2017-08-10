@@ -1,10 +1,12 @@
-1. OBJECTIVES
+# Sofia Caballero Portfolio
+
+## 1. OBJECTIVES
 
  * Get job interviews.
  * Show academic progress.
  * Kepp track of projects.
  
-2. USERS
+## 2. USERS
 
  * Recluters.
  * CEO.
